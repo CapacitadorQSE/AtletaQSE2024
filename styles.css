@@ -51,19 +51,22 @@ body, html {
 }
 
 .top-section button {
-    padding: 20px 30px;
+    padding: 20px 40px; /* Aumenta o tamanho do botão */
     border: none;
-    border-radius: 10px;
+    border-radius: 15px; /* Bordas mais arredondadas */
     background-color: #ff6b6b; /* Cor de destaque da imagem */
     color: white;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
     margin-top: 30px;
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em; /* Texto maior */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Sombra para mais destaque */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .top-section button:hover {
     background-color: #ff4757; /* Cor de destaque mais escura */
+    transform: scale(1.1); /* Efeito de aumento ao passar o mouse */
 }
 
 .bottom-section {
@@ -99,3 +102,4 @@ body, html {
         height: auto;
     }
 }
+
